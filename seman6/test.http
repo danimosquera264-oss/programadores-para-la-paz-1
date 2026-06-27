@@ -1,0 +1,17 @@
+### Registro
+POST http://localhost:3000/registro
+Content-Type: application/json
+
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+### Incidencia
+POST http://localhost:3000/incidencia
+Content-Type: application/json
+
+{
+  "tipo": "basuras",
+  "descripcion": "se evidencia que hace dos dias no se recoge la basura del sector del parque"
+}
